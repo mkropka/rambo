@@ -104,8 +104,8 @@ class ChromeBrowser
     end
 end
 
-puts "To start the getBase application please provide your credentials first"
-puts "E-mail:" 
+puts "Please provide your login and password:"
+puts "Login:" 
 STDOUT.flush  
 login = gets.chomp  
 puts "Password:" 
