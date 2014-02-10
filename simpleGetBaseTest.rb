@@ -96,7 +96,7 @@ class ChromeBrowser
     
     def initialize
         @getBaseApp = Watir::Browser.new :chrome
-        @getBaseApp.driver.manage.timeouts.implicit_wait = 5
+        #@getBaseApp.driver.manage.timeouts.implicit_wait = 5
     end
     
     def getApp
